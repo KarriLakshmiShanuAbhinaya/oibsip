@@ -5,7 +5,7 @@
 
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url("https://i.pinimg.com/originals/47/d1/55/47d1554673bea1087deff0fbd3ce8484.jpg");
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url("https://png.pngtree.com/thumb_back/fh260/background/20210224/pngtree-blue-abstract-background-business-image_564246.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -39,7 +39,7 @@ ul{
 }
 
 ul li{
-    border: 1px solid orange;
+    border: 2px solid orange;
     border-radius: 10px;
     background-color:transparent;
     list-style: none;
@@ -59,8 +59,13 @@ ul li a{
     opacity: 1;
 }
 ul li a:hover {
-    background-color:orange;
-    border-radius: 10px;
+    
+    color:orange;
+    border-radius: 15px;
+  }
+ul li a:active {
+    box-shadow: 0 5px whitesmoke;
+    transform: translateY(4px);
   }
 
 .content{
@@ -98,6 +103,7 @@ ul li a:hover {
     border-radius: 10px;
     cursor: pointer;
     transition: .4s ease;
+    box-shadow: 0 2px #999;
     
 }
 
@@ -107,9 +113,10 @@ ul li a:hover {
     transition: .3s ease;
 }
 
-.cn:hover{
-    background-color: #fff;
-}
+.cn:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 
 .content span{
     color: #ff7200;
@@ -190,6 +197,11 @@ ul li a:hover {
     color: #000;
     font-weight: bold;
 }
+.btnn:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
 .c{
     border: 1px solid black;
     width: 240px;
@@ -212,6 +224,10 @@ ul li a:hover {
     color: #000;
     font-weight: bold;
 }
+.c:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 .form .link{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
